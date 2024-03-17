@@ -4,7 +4,6 @@
 Solution to the Lockboxes Task 
 """
 
-
 def canUnlockAll(boxes):
     """
     Checks if the input list is valid and then iterates through the boxes
@@ -23,3 +22,4 @@ def canUnlockAll(boxes):
         if not boxes_checked:
             return boxes_checked
     return True
+
