@@ -1,14 +1,13 @@
 #!/usr/bin/python3
 """
-Solution to lockboxes problem
+Solution to the lockboxes Task
 """
 
 
 def canUnlockAll(boxes):
     """
-    Determines whether a series of locked boxes can be opened
-    based on keys that can be attained.
-    Solution to the lockboxes problem
+    checks if the input list is valid and then iterates through the boxes
+    to determine if all boxes can be unlocked.
     """
     if (type(boxes)) is not list:
         return False
