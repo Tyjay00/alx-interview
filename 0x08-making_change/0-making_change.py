@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""This function calculates the minimum number of coins required
-   to reach a given total."""
+"""Making Change Problem"""
+
 
 def makeChange(coins, total):
-    """Calculates the minimum number of coins required
-       to reach a given total amount."""
+    """Determines the fewest number of coins needed
+        to meet a given amount total"""
     if total <= 0:
         return 0
 
