@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Making Change Problem"""
+"""calculates the minimum number of coins required"""
 
 
 def makeChange(coins, total):
-    """Determines the fewest number of coins needed
+    """checks the fewest number of coins needed
         to meet a given amount total"""
     if total <= 0:
         return 0
